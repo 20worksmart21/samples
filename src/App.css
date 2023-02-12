@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.controlBt{
+.controlBt {
   position: absolute;
   top: 50%;
   height: 50px;
@@ -43,32 +43,39 @@
   padding: 8px;
   margin: 16px;
 }
+
 .textArea {
   width: 800px;
   height: 400px;
 
 }
+
 .TODOItemcontainer {
   display: flex;
   flex-basis: 10%;
 }
 
-.TODOdate{
+.TODOdate {
   flex-grow: 2;
 }
-.TODOthings{
+
+.TODOthings {
   flex-grow: 8;
 }
+
 table {
   width: 80%;
   margin: auto;
 }
+
 th {
   cursor: pointer;
 }
+
 .tabledate {
   width: 50%;
 }
+
 .thumnailContainer {
   border: 1px solid black;
   height: 50px;
@@ -85,9 +92,11 @@ th {
   overflow: hidden;
   display: flex;
 }
+
 .disImg {
   flex-grow: 6;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -118,7 +127,38 @@ th {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigationContainer {
+  width: 200px;
+  background-color: black;
+  text-align: left;
+  font-size: 16px;
+  color: wheat;
+}
+
+.navigationContainer li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.navigationContainer li a {
+  text-decoration: none;
+  color: wheat;
+}
+
+.navigationContainer a::after {
+  text-decoration: none;
+}
+
+.childrenList {
+  position: relative;
+}
+
+ul {
+  padding: 0;
 }
