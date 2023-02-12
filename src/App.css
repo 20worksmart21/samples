@@ -2,6 +2,92 @@
   text-align: center;
 }
 
+.mainCarousel {
+  width: 60%;
+  height: 300px;
+  border: 1px solid salmon;
+  margin: auto;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.controlBt{
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 80px;
+  font-size: 50px;
+  border: none;
+  background-color: transparent;
+  transform: translate(0, -25px);
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.AddcontentContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addComment {
+  width: 100px;
+  padding: 8px;
+  margin: 16px;
+}
+.textArea {
+  width: 800px;
+  height: 400px;
+
+}
+.TODOItemcontainer {
+  display: flex;
+  flex-basis: 10%;
+}
+
+.TODOdate{
+  flex-grow: 2;
+}
+.TODOthings{
+  flex-grow: 8;
+}
+table {
+  width: 80%;
+  margin: auto;
+}
+th {
+  cursor: pointer;
+}
+.tabledate {
+  width: 50%;
+}
+.thumnailContainer {
+  border: 1px solid black;
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  line-height: 30px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.thumnail {
+  flex-basis: 30px;
+  border: 1px solid rebeccapurple;
+  overflow: hidden;
+  display: flex;
+}
+.disImg {
+  flex-grow: 6;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

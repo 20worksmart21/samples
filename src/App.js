@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useMemo } from 'react';
+import CarouselComponent from './carousel/carousel'
+import TODO from './Todo/Todo';
+import InventoryManagement from './utils/inventoryManagement';
+import { passwordValidation } from './utils/inputValidation';
+import Directory from './Directory/Directory'
 
 function App() {
+  passwordValidation("afsaaaaA1a!")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Directory />
     </div>
   );
 }
