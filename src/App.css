@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+}
+
+.mainContent {
+  padding: 16px;
+  width: 100%;
 }
 
 .mainCarousel {
@@ -135,10 +141,12 @@ th {
 
 .navigationContainer {
   width: 200px;
+  min-height: 100vh;
   background-color: black;
   text-align: left;
   font-size: 16px;
   color: wheat;
+  margin: 0;
 }
 
 .navigationContainer li {

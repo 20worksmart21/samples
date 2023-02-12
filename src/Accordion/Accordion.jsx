@@ -2,10 +2,10 @@ import React, { useState } from "react"
 
 const navigationList = {
     home: {
-        url: '/home',
+        url: '/carousel',
     },
     tab1: {
-        url: '/tab1',
+        url: '/todo',
         children: {
             children1: {
                 url: '/tab1/children1',
@@ -16,7 +16,7 @@ const navigationList = {
         }
     },
     tab2: {
-        url: '/tab2',
+        url: '/directory',
         children: {
             children1: {
                 url: '/tab2/children1',
